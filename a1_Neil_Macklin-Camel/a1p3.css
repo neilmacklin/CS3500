@@ -1,0 +1,61 @@
+/*a1p3 CSS*/
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav');
+
+html {
+	background-image: url('images/wood_wallpaper.jpg');
+	margin:0px 250px 0px 250px;
+}
+h1 {
+	font-family: "Abril Fatface";
+	font-size: 2em; 
+	text-align: center;
+	padding: 250px 0px 250px 0px;
+	margin: 0px 100px 0px 100px;
+	background: url(images/LaurenAndI_formal.jpg) no-repeat top center;
+}
+nav {
+	padding:  10px;
+}
+nav li{
+	display: inline;
+}
+nav ul {
+	text-align: center;
+}
+nav li a {
+	color: lightblue;
+	text-align: center;
+}
+nav li:hover {
+	background-color: black;
+	border-radius: 4px;
+	padding: 7px;
+} 
+article {
+	color:  lightblue;
+	font-weight: bold;
+	padding: 5px;
+	margin: 50px;
+	border: 5pt solid lightblue;
+	font-family: Yantramanav;
+}
+h3 {
+	font-family: "Abril Fatface";
+	color: black;
+}
+figure {
+	text-align: center;
+}
+summary:hover {
+	background-color: black;
+	border-radius: 4px;
+	padding: 7px;
+}
+em {
+	color: black;
+}
+article p a {
+	color: lightblue;
+}
+

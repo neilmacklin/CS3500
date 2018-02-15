@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Part 3 of Assignment 1</title>
+  <link type="text/css" rel="stylesheet" href="reset.css"/>
+  <link type="text/css" rel="stylesheet" href="a1p2.css"/>
+</head>
+
+<body>
+  <h1 class="re-adjust"><span>CRM</span> Admin</h1>
+
+  <nav id="mainMenu">
+    <ul>
+      <li><a href="#">Personal Details</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Location</a></li>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Tasks</a></li>
+      <li><a href="#">Sales Activity</a></li>
+    </ul>
+  </nav>
+
+  <main id="main">
+
+    <header class="re-adjust">
+      <img src="images/profile-96x96.jpg" alt="profile-96x96.jpg" />
+      <h2>Jack Smith</h2>
+    </header>
+
+    <section>
+      <h3>Personal Details</h3>
+      <p>
+        <em>Address:</em> 1 Microsoft Way<br>
+        <em>City:</em>    Redmond<br>
+        <em>Region:</em>  WA</br>
+        <em>Country:</em> USA<br>
+        <em>Postal:</em>  98052-8300<br>
+      </p>   
+      <nav id="edit-flag">
+        <ul>
+          <li><a href="Edit"> Edit </a></li>
+          <li><a href="Flag"> Flag </a></li>
+        </ul>
+      </nav>         
+    </section>
+
+    <section>
+      <h3>Contact</h3> 
+      <p>
+        <em>Phone:</em> <a href="tel:+14258828080">+1 (425) 882-8080</a><br>
+        <em>Email:</em> <a href="mailto:jacksmith@microsoft.com">jacksmith@microsoft.com</a>  
+      </p>
+      <nav>
+        <ul id="edit-flag">
+          <li><a href="Edit"> Edit </a></li>
+          <li><a href="Flag"> Flag </a></li>
+        </ul>
+      </nav>          
+    </section>
+
+    <section>
+      <h3>Location</h3> 
+      <img src="images/map.png" alt="map.png">
+      <nav>
+        <ul id="edit-flag">
+          <li><a href="Edit"> Edit </a></li>
+          <li><a href="Flag"> Flag </a></li>
+        </ul>
+      </nav>          
+    </section>
+
+    <article>
+      <h3>About Me</h3> 
+      <p>
+        On paper, I'm a computer scientist. To most people that probably means I spend hours learning the ins and outs of coding languages, spend more time talking to my computer than I do to other people, and my mornings begin with an energy drink because sometimes I sleep a lot less than I probably should. While partially true, above all else my computer is the way I give to others.
+      </p>
+      <nav>
+        <ul id="edit-flag">
+          <li><a href="Edit"> Edit </a></li>
+          <li><a href="Flag"> Flag </a></li>
+        </ul>
+      </nav>          
+    </article>
+
+    <article>
+      <h3>Tasks</h3> 
+      <details>
+        <summary>Individual Tasks</summary>
+        <ol>
+          <li><span>Update warehouse catalog.</span></li>
+          <li><span>Organize weekly sales schedule.</span></li>
+          <li><span>Test production software.</span></li>
+        </ol>
+      </details>
+      <details>
+        <summary>Collective Tasks</summary>
+        <ol>
+          <li><span>Organize and guide Friday's meetings.</span></li>
+          <li><span>Meet with customers.</span></li>
+        </ol>
+      </details>
+      <details>
+        <summary>Client-Focus Tasks</summary>
+        <p>The following is the sales strategy to approach client-focus tasks:</p>
+        <img src="images/strategy-chart.png" alt="strategy-chart.png" width="50" height="25">
+      </details>        
+    </article>
+	
+    <figure>
+      <h3>Sales Activity</h3>
+      <img src="images/chart.png" alt="chart" title="sales chart" />
+    </figure>
+	</main>
+  <footer id="footer">
+    <p><a href="Home">Home</a> | <a href="#">Catalog</a> | <a href="#">Inventory</a></p>
+    <p>Copyright &copy; 2013 Not a Real CRM</p>
+  </footer>
+</body>
+</html>

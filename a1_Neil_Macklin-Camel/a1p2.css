@@ -1,0 +1,160 @@
+/* a1p2.css */
+
+/*inport for the google font*/
+@import url('https://fonts.googleapis.com/css?family=Nunito:600');
+
+/*tag selctors*/
+html {
+	margin: 0px 475px 0px 475px;
+	font-family: 'Nunito', sans-serif;
+	color: #607D8B;
+}
+body h1, h3 {
+	background-image: url('images/header-background.png');
+	color: white;
+	padding: 10px;
+}
+body h1 span {
+	color:  #FF3D00;
+}
+nav ul li a{
+	color: #FF3D00;
+}
+nav li:hover {
+	background-color: #FF3D00;
+	border-radius: 4px;
+	padding: 7px;
+}
+nav li a:hover {
+	color: white;
+}
+figure h2 {
+	color: #607D8B;
+}
+nav {
+	color: #ECEFF1;
+}
+h1 { 
+	font-size: 24px;
+}
+header {
+	padding: 30px 0px 15px 0px;
+}
+header img {
+	padding: 10px;
+	border: 3px solid #c6c3c2;
+}
+em {
+	color: #607D8B;
+}
+section, figure, article{
+	margin: 20px;
+	border: 1pt solid grey;
+	color: #283649;
+}
+p {
+	margin: 10px 0px 10px 0px;
+}
+h2 { 	
+	font-size: 22px;
+	color: #283649;
+}
+h3 { 
+	font-size: 18px;
+}
+summary {
+	color: #283649;
+	background-color: #ECEFF1;
+	border-radius: 4px;
+	padding: 7px;
+	margin: 15px; 
+}
+summary:hover{
+	color: #ECEFF1;
+	background-color: #607D8B;
+	border-radius: 4px;
+	padding: 7px;
+	margin: 15px; 
+}
+ol {
+	list-style-type: upper-alpha;
+	font-weight: bold;
+}
+ol li{
+	color: red;
+}
+ol li span {
+	color: #283649;
+	font-weight: normal;
+}
+
+/*href selectors*/
+a[href^="mailto"] {
+	background: url(images/email.png) no-repeat 0 3px;
+	padding-left: 1em;
+}
+a[href^="tel"] {
+	background: url(images/call.png) no-repeat 0 3px;
+	padding-left: 1em;
+}
+a[href^="Edit"] {
+	background: url(images/edit.png) no-repeat 0 3px;
+	padding-left: 1em;
+}
+a[href^="Flag"] {
+	background: url(images/flag.png) no-repeat 0 3px;
+	padding-left: 1em;
+}
+
+/*class and id selctors*/
+.re-adjust {
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+}
+#edit-flag {
+	background-color: #607D8B;
+	padding: 5px;
+}
+#edit-flag li{
+	display: inline;
+	background-color: #FF3D00;
+	color: #ECEFF1;
+	border-radius: 4px;
+	padding: 2px;
+	margin: 0px 5px 0px 5px; 
+
+}
+#edit-flag li a {
+	color: white;
+	text-decoration: none;
+}
+#mainMenu {
+	padding: 10px;
+	background-color: #283649;
+	margin: 0px 10px 0px 10px;
+	text-align: center;
+
+}
+#mainMenu li{
+	font-size: 20px;
+	display: inline;
+	color: #92a8d1;
+}
+#footer {
+	display: inline;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 0px 1px 0px 0px;
+}
+#footer p {
+	padding: 5px;
+	background-color: #283649;
+	margin: 0px 10px 0px 10px;
+	color: white;
+
+}
+#footer p a {
+	color: #FF3D00;
+}
+
+
