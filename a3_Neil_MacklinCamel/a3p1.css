@@ -1,0 +1,42 @@
+html{
+	margin: 0px 100px 0px 100px;
+}
+.div1{
+	padding: 20px 10px 20px 10px;
+	background-color: #e9ffff;	
+	border: 1px solid #78c2c3;
+	margin: 10px 0px 10px 0px;
+}
+.div2{
+	padding: 20px 10px 20px 10px;
+	background-color: #e9ffff;	
+	border: 1px solid #78c2c3;
+	margin: 10px 0px 10px 0px;
+}
+
+table {
+	width: 100%;
+	border-spacing: 10px;
+}
+th, td {
+    text-align: left;
+    border-bottom: 1px solid #78c2c3;
+}
+img {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.paintingHeader{
+	text-align: center;
+	background-color: #78c2c3;
+}
+.paintingColumns{
+	background-color: #e9ffff;
+}
+.div3{
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid #78c2c3 
+}
+
+
