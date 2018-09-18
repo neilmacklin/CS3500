@@ -1,0 +1,151 @@
+		#drops-ctn{
+			position: relative;
+			margin:0 auto;
+			margin-top: 250px;
+			width: 600px;
+
+		}
+		#drops{
+			position: relative;
+			width: 600px;
+			height: auto;
+			display: block;
+			margin: 0 auto;
+		}
+
+		.drop{
+			position: relative;
+			width: 600px;
+			height: 153px;
+			border-radius: 50px;
+			padding-top: 5px;
+			margin:0 auto;
+			position: relative;
+			margin-bottom: 50px;
+		}
+		.text-ctn{
+			position: absolute;
+			background-color: white;
+			width: 596px;
+			height: 135px;
+			border-radius: 48px;
+			border-top-left-radius: 35px;
+			border-top-right-radius: 35px;
+			left: 2px;
+			top:17px;
+			box-shadow: 0 0px 20px 0 rgba(0,4,0,0.2);
+		}
+		#username{
+			font-size: 12px;
+			margin-left: 45px;
+			margin-top: -4px;
+		}
+		#username a{
+			color: white;
+		}
+
+		#dropMsg{
+			height: 90px;
+			max-width: 380px;
+			margin-left: 85px;
+			margin-top: 18px;
+		}
+
+		.dropProfilePic{
+			position: absolute;
+			width: 60px;
+  			height: 60px;  
+		  	border-radius: 20px;
+		  	top: 10px; 
+		 	left: 10px;
+		}
+
+		figure {
+  			padding: 5px 0;
+  			max-height: 500px;
+  			overflow-y: hidden;
+  			position: relative;
+  			margin-left: 10px;
+  			margin-right: 10px;
+
+		}
+		figure>img {
+  			width: 100%;
+  			height: auto;
+  			position: relative;
+  			margin-top:50%;
+  			transform:translateY(-75%);
+
+
+		}
+
+		.dropType{
+			position: absolute;
+			left: 480px;
+			top: -17px;
+			text-align: center;
+			padding: 60px;
+			padding-left: 40px;
+			border-left: solid 2px;
+		}
+
+		.extendedDrop{
+			height: 600px;
+		}
+
+		.DropImage{	
+			position: relative;
+			width: auto;
+			height: auto;
+			max-height: 400px;
+			margin: 0 auto;
+			background-color: black;
+		}
+
+		.dropInfo{
+			position: absolute;
+			top:83%;
+			left: 45px;
+		}
+		.dropInfo li{
+			padding-right: 150px;
+		}
+
+		.fine{
+			font-family: 'Source Sans Pro', sans-serif;
+		}
+
+		.red{
+			background-color: #FF5757;
+		}
+		.purple{
+			background-color: #9012FE;
+		}
+		.blue{
+			background-color: #29B6F6;
+		}
+		.yellow{
+			background-color: #FFEE58;
+		}
+		.black{
+			background-color: #263238;
+		}
+		.white{
+			background-color: white;
+		}
+		.lightBlack{
+			background-color: #424242;
+		}
+
+		.funny{
+			border-color: #FF5757;
+			color:#FF5757;
+		}
+		.tech{
+			border-color: #29B6F6;
+			color:#29B6F6;
+		}
+		.news{
+			border-color: #9012FE;
+			color:#9012FE;
+		}
