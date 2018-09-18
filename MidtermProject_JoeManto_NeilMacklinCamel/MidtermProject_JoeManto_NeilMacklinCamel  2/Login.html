@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="index.html">
+    <link href="products.html">
+    <link href="Contact.html">
+    <linl href="Login.html">
+    <link href="reviews.html">
+    <link href="vote.html">
+
+    <link href="productView_Yosemite.html">
+    <link href="productView_Canada.html">
+    <link href="productView_italy.html">
+    <link href="productView_glencoe.html">
+
+   <link href="css/reset.css" rel="stylesheet">
+   <link rel="stylesheet" href="css/bootstrap.min.css"/>
+   <link href="Login.css" rel="stylesheet">
+
+  <link href="Login.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+        <div class="navbar-header">
+           <a class="navbar-brand" href="#"><strong>Complex Water</strong></a>
+        </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="vote.html">Vote</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="Login.html"><span class=""></span> <strong>Login</strong></a></li>
+        </ul>
+      </div>
+  </nav>
+<!--above is the header navagation bar-->
+
+  <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+<!--Login-->
+<div class="container" id="login">
+  <button type="button" class="btn btn-basic btn-lg" data-toggle="modal" data-target="#myModal" id="myBtn">Login</button>
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Login</h4>
+        </div>
+        <div class="modal-body">
+          <div>
+        <label for="emailLogin">Email: </label>
+        <input type="email" name="emailLogin" id="emailLogin" size="35" placeholder="Example@gmail.com" required>
+      </div><br>
+      <div>
+        <label for="passLogin">Password: </label>
+        <input type="password" name="passLogin" size="35" id="passLogin" required>
+      </div>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-basic btn-block" id="modalSubmit">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</form>
+
+<div class="form-cont" >
+  <form method="get" action="http://www.randyconnolly.com/tests/process.php">
+      <ul>
+        <li><label>Email</label><br><input class ="field" id = "email" type="email" placeholder="xxxxx@xxx.com" name="Email" required></li>
+
+        <li><label>Password</label><br><input class = "field" id = "password" type="password" placeholder="8 char" name="password" required></li>
+        <li><label>First Name</label><br><input class = "field" id = "f-name" type="text" placeholder="ex. Joe" name="f-name" required></li>
+        <li><label>Last Name</label><br><input class = "field" id = "l-name" type="text" placeholder="ex. Jones" name="l-name" required></li>
+        <li><button class="login header" type="submit">SignUp</button></li>
+      </ul>
+  </form>
+</div>
+
+  <footer>
+    <div class="row">
+      <div class="col-md-12 container">
+        <div id="supportTag" class="col-md-4">
+          <p id="supportFooter"><span id="complex-water"><strong>Complex Water</strong></span>
+          <br>
+          <strong>Support Number:</strong> (872)-592-8123<br>
+          <strong> Support Email:</strong> ComplexWaterSupport@rocketmail.com</p>
+        </div>
+
+        <div class="col-md-3">
+          <img style="width: 25px; height: auto; margin: 6px auto;" src="images/water.png">
+        </div>
+
+        <div id="HQaddress" class="col-md-3">
+          <p><strong>HQ Address</strong><br>
+            10600 North Tantau Avenue<br>
+            Cupertino, CA 95014
+          </p>
+        </div>
+
+        <div id="Hours" class="col-md-2">
+          <p>
+            <strong>Hours</strong><br>
+            All days: 10am - 5pm
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!--end of footer-->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</html>

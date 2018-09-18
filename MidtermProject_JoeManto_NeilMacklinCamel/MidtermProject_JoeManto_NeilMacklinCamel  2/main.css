@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	
+}
+@media screen and (max-width: 766px) {
+	#header-Image img{
+		 visibility: hidden;
+	}
+	#TeamInfo-container img{
+		position: relative;
+		max-width: 300px;
+		max-height: 300px;
+		border-radius: 20px;
+		margin-bottom: 20px;
+		margin-left: 80px;
+	}
+	#TeamInfo-container{
+		position: relative;
+		width:850px;
+		margin: 0 auto;
+		font-weight: 600;
+		margin-right: 30px;
+	}
+	#TeamInfo-container h5{
+		margin-left: 80px;
+	}
+	#centered-header{
+		font-size: 18px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	#teamIfo-text{
+		position: relative;
+		width: 400px;
+		margin-left: 80px;
+	}
+	.image-container a{
+		font-size: 10px;
+	}
+
+}
+
+}
+#header-Image{
+	color: white;
+	position: relative;
+	width: auto;
+	height: auto;
+	background-color: black;
+	border-top:solid #4A4A4A 3px; 
+}
+
+#header-Image img{
+	max-width: 100%;
+	max-height: 600px;
+	margin: 0 auto;
+}
+
+.centered{
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+#TeamInfo-container img{
+	position: relative;
+	max-width: 300px;
+	max-height: 300px;
+	border-radius: 20px;
+}
+
+#TeamInfo-container{
+	position: relative;
+	width:850px;
+	margin: 0 auto;
+	margin-top: 50px;
+	font-weight: 600;
+	margin-bottom: 200px;
+}
+
+
+#TeamInfo-container em{
+	font-weight: 300;
+	color: #FFC107;
+}
+
+#centered-header{
+	margin-bottom: 80px;
+	text-align: center;
+}
+
+
+#locations-container{
+	margin-top: 60px;
+}
+
+.image-container{
+	position: relative;
+}
+
+.image-container img{
+ 	max-width: 100%;
+ 	max-height:50em;
+ 	
+}
+.image-container #background-img:hover{
+	border:solid #FFEB3B 5px;
+ 	filter:blur(5px);
+}
+.image-container a{
+	color:#FFEB3B;
+	position: absolute;
+	top:85%;
+	left: 95%;
+	padding: 5px;
+	border:#FFEB3B 0.1em solid;
+	border-radius: 10px;
+}
+.locationName{
+	position: absolute;
+	top:30px;
+	left: 30px;
+	color:white;
+}
+.locationName hr,h2{
+	line-height: 0px;
+	background-color: 
+}
+.btn-like{
+	position: absolute;
+	top:135px;
+	left: 30px;
+	color:white;
+}
+
+
+
+
+
+/*Navbar*/
+.navbar{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	background-color: white;
+	border:0px;
+	
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #4A4A4A;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFC107;
+    background-color: white;
+}
+
+ul.nav a:hover { 
+	color: #FFC107 !important; 
+}
+
+.navbar-inverse .navbar-brand {
+    color: #4A4A4A;
+}
+
+
+/*footer code*/
+
+footer{
+	margin-top: 10px;
+	color:#FFC107;
+	background-color: white;
+}
+#complex-water{
+	font-size: 16px;
+	color: #4f92ff;
+}
+#supportFooter {
+	margin-top: 5px;
+	width: 400px;
+	font-weight: 300;
+	font-size: 12px;
+	
+}
+#HQaddress{
+	margin-top: 5px;
+	font-weight: 300;
+	font-size: 12px;
+}
+#Hours{
+	margin-top: 5px;
+	font-weight: 300;
+	font-size: 12px;
+}

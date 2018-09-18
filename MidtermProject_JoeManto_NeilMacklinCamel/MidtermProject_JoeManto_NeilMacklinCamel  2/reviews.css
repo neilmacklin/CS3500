@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@media screen and (max-width: 766px) {
+
+
+}
+body{
+	background-color: white;
+	font-family: 'Open Sans', sans-serif;
+	color: #4A4A4A;
+}
+
+/*Navbar*/
+.navbar{
+	margin-top: 10px;
+	margin-bottom: 0px;
+	background-color: white;
+	border:0px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #4A4A4A;
+}
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #FFC107;
+    background-color: white;
+}
+ul.nav a:hover { 
+	color: #FFC107 !important; 
+}
+.navbar-inverse .navbar-brand {
+    color: #4A4A4A;
+}
+/*above is the header navagation bar*/
+.headerReviews{
+}
+h1{
+	width: 120px;
+	height: 50px;
+	font-size: 24px;
+	margin-left: 100px;
+	text-align: center;
+	border:solid #4A4A4A 3px;
+	margin-bottom: 50px;
+	padding-top: 1.5px;
+	padding: 8px;
+	text-align: center;
+}
+.reviewContainer {
+	margin-left: 100px;
+    border-radius: 25px;
+    background: #4A4A4A;
+    padding: 20px; 
+	width: 500px;
+	margin-bottom: 50px;
+	color: white;
+}
+.floating{
+	
+	margin-left: 25%;
+}
+main{
+	padding-bottom: 300px;
+}	
+/*footer code*/
+footer{
+	margin-top: 10px;
+	color:#FFC107;
+	background-color: white;
+}
+#complex-water{
+	font-size: 16px;
+	color: #4f92ff;
+}
+#supportFooter {
+	margin-top: 5px;
+	width: 400px;
+	font-weight: 300;
+	font-size: 12px;
+	
+}
+#HQaddress{
+	margin-top: 5px;
+	font-weight: 300;
+	font-size: 12px;
+}
+#Hours{
+	margin-top: 5px;
+	font-weight: 300;
+	font-size: 12px;
+}

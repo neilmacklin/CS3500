@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="productView.css" />
+
+    <link href="index.html">
+    <link href="products.html">
+    <link href="contact.html">
+    <link href="about.html">
+    <link href="reviews.html">
+    <link href="Login.html">
+
+
+   	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src ="js/main.js"></script>
+
+</head>
+<body>
+  <nav class="navbar navbar-inverse">
+     <div class="container-fluid">
+        <div class="navbar-header">
+           <a class="navbar-brand" href="#"><strong>Complex Water</strong></a>
+        </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="vote.html">Vote</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="Login.html"><span class=""></span> <strong>Login</strong></a></li>
+        </ul>
+      </div>
+  </nav>
+
+
+  <div class = "col-md-6" id = "productsHeader"><p>Glencoe, Uk</p>
+    <p style="margin-left: 100px;"></p>
+    <a id = "buy-btn" href="#">Buy</a>
+  </div>
+
+  <section id = "productView-container">
+    <ul>
+    <li id = info>
+      <div id = "location-info">
+        <h4>Info</h4>
+        <p>Glencoe Uk, Water comes right from the ground and streams of water that flow through the whole park.</p>
+      </div>
+    </li>
+    <li>
+      <div id = image-container>
+        <img src="images/Glencoe-UK-large.jpg">
+      </div>
+    </li>
+    </ul>
+  </section>
+
+
+
+ <section id = "reviews-container">
+  <ul id = "review-list">
+
+    <li id = "fixed">
+      <ul id = "outerList-create" class = "outerList">
+       <li>
+        <div class="review-create">
+
+            <ul id = "rate-create" class = "rate">
+              <li id = "1"><img src = "Icons/Star-empty.png"></li>
+              <li id = "2"><img src = "Icons/Star-empty.png"></li>
+              <li id = "3"><img src = "Icons/Star-empty.png"></li>
+              <li id = "4"><img src = "Icons/Star-empty.png"></li>
+              <li id = "5"><img src = "Icons/Star-empty.png"></li>
+            </ul>
+
+        </div>
+        </li>
+        <li>
+          <input type="text" id = "reviewer-name" placeholder="Name">
+        </li>
+        <li>
+          <textarea cols="40" rows="5" id = "review-input" placeholder="Review Text"></textarea>
+        </li>
+        <li>
+          <button type="button" id = "review-btn">Submit Review</button>
+        </li>
+
+      </ul>
+    </li>
+
+
+
+     <li>
+     <ul id = "outerList" class = "outerList">
+       <li>
+        <div class="review">
+
+            <ul class = "rate">
+              <li><h4 class ="name" style="margin-right: 30px;">Joe Smith</h4></li>
+              <li><img src = "Icons/Star-filled.png"></li>
+              <li><img src = "Icons/Star-filled.png"></li>
+              <li><img src = "Icons/Star-filled.png"></li>
+              <li><img src = "Icons/Star-filled.png"></li>
+              <li><img src = "Icons/Star-empty.png"></li>
+            </ul>
+
+        </div>
+     </li>
+     <li>
+        <p class = date>Date: 10/21/17 10:35 PM</p>
+     </li>
+     <li>
+        <p class = review-text>Finished my Christmas shopping on this water... my kids are gonna love this. No going back.</p>
+     </li>
+     </ul>
+   </li>
+  </ul>
+ </section>
+
+
+
+
+
+
+
+ <!--footer-->
+  <footer>
+    <div class="row">
+      <div class="col-md-12 container">
+        <div id="supportTag" class="col-md-4">
+          <p id="supportFooter"><span id="complex-water"><strong>Complex Water</strong></span>
+          <br>
+          <strong>Support Number:</strong> (872)-592-8123<br>
+          <strong> Support Email:</strong> ComplexWaterSupport@rocketmail.com</p>
+        </div>
+
+        <div class="col-md-3">
+          <img style="width: 25px; height: auto; margin: 6px auto;" src="images/water.png">
+        </div>
+
+        <div id="HQaddress" class="col-md-3">
+          <p><strong>HQ Address</strong><br>
+            10600 North Tantau Avenue<br>
+            Cupertino, CA 95014
+          </p>
+        </div>
+
+        <div id="Hours" class="col-md-2">
+          <p>
+            <strong>Hours</strong><br>
+            All days: 10am - 5pm
+          </p>
+        </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+<!--end of footer-->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</body>
+
+</html>
