@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Part 2 - Assignment 2</title>
+	<link rel="stylesheet" href="a2p2.css">
+</head>
+<body>
+	<h5>February 2018</h5>
+	<table class="calendar">
+	<tbody>
+	<tr>
+	<td>M</td>
+  	<td>T</td>
+  	<td>W</td>
+  	<td>T</td>
+  	<td>F</td>
+  	<td>S</td>
+  	<td>S</td>
+  	</tr>
+  <tr>
+  	<td colspan="3">&nbsp;</td>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td><a href="#">4</a></td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+    <td>8</td>
+    <td><a href="#">9</a></td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td id="today">11</td>
+    <td>12</td>
+    <td>13</td>
+    <td>14</td>
+    <td>15</td>
+    <td><a href="#">16</a></td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>18</td>
+    <td>19</td>
+    <td>20</td>
+    <td>21</td>
+    <td>22</td>
+    <td><a href="#">23</a></td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>25</td>
+    <td>26</td>
+    <td>27</td>
+    <td>28</td>
+    <td colspan="2">&nbsp;</td>
+  </tr>
+  </tbody>
+  <tr>
+  <td class="jan" colspan="3"> <a href="#">&#171; Jan</a></td>
+  <td class="dot"><a href="#">&#8226;</a></td>
+  <td class="march" colspan="3"><a href="#" >Mar &#187;</a></td>
+  </tr>
+</table>
+<br>
+	<form action="http://www.randyconnolly.com/tests/process.php" method="get">
+	
+	<div>
+	<fieldset>
+		<legend>Meeting details</legend>
+		Client Name: <input type="text" name="Name" placeholder="Enter Name"><br>
+		Client E-mail: <input type="text" name="E-mail" placeholder="Enter E-mail"><br>
+		Meeting Time? <input type="checkbox" name="Meeting"><br>
+		Client Type: <input type="radio" name="school">School 
+		<input type="radio" name="college">College 
+		<input type="radio" name="university">University <br>
+		Meeting Date: <input type="text" name="dateMeet" placeholder="mm/dd/yyyy"><br>
+		Meeting Time: <input type="text" name="timeMeet" placeholder="--;-- --"><br>
+		<button type="submit" id="submit">Submit</button>
+	</fieldset>
+	</div>	
+	</form>
+</body>
+</html>

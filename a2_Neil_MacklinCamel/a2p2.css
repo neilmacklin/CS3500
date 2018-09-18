@@ -1,0 +1,45 @@
+.march{
+	text-align: right;
+}
+.dot{
+	text-align: center;
+}
+.calendar{
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.jan{
+	text-align: left;
+}
+#today{
+	background-color: #6c87f2;
+}
+h5{
+	margin-bottom: 0px;
+	margin-top: 0px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 225px;
+	background-color: #91d697;
+}
+td{
+	background-color: #e5e5e5;
+	border-top: .15px solid gray;
+	border-bottom: .65px solid black;
+	border-right: .65px solid black;
+	border-left: .1px solid gray;
+	text-align: center;
+}
+div{
+	padding: 5px;
+	background-color: tan;
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+input{
+	margin: 5px 5px 5px 5px;
+	height: 18px;
+}

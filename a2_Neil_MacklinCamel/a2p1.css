@@ -1,0 +1,134 @@
+html {
+	margin:0px 400px 0px 400px;
+
+}
+header img{
+	width: 1175px;
+	height: 600px;
+}
+h1 {
+	font-size: 40px;
+}
+header h2{
+	font-size: 30px;
+	padding-bottom: 25px
+}
+div h2 {
+
+	font-size: 20px;
+	text-decoration: underline;
+    text-decoration-color: black;
+}
+a:link{
+	color: white;
+}
+span {
+	border:1px solid white; 
+	padding: 10px;
+	color: white;
+
+}
+.banner--title{
+	position: absolute;
+	text-align: center;
+	background-color: black;
+	color: white;
+	top: 300px;
+	left: 600px;
+	padding-top: 5px;
+	padding-bottom: 30px;
+
+}
+.highlights--media{
+	float: left;
+	padding-top: 10px
+}
+.highlights--container{
+	float: left;
+	font-size: 14px;
+}
+.info{
+	float: right;
+	padding-left: 15px;
+	padding-right: 15px; 
+}
+.highlights--button{
+	background-color: orange;
+	float: right;
+	padding: 5px;
+	text-decoration: none;
+}
+.mosaic--a{
+	position: absolute;
+	width: 580px;
+	height: 390px;
+	top: 850px;
+}		
+.mosaic--b{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 850px;
+	right: 710px;
+}
+.mosaic--c{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 1050px;
+	right: 710px;
+}
+.mosaic--d{
+	position: absolute;
+	width: 285px;
+	height: 390px;
+	top: 850px;
+	left: 1285px;
+}
+.mosaic--e{
+	position: absolute;
+	width: 285px;
+	height: 390px;
+	top: 1250px;
+}
+.mosaic--f{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 1250px;
+	left: 695px;
+}
+.mosaic--g{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 1250px;
+	right: 710px;
+}
+.mosaic--h{
+	position: absolute;
+	width: 285px;
+	height: 390px;
+	top: 1250px;
+	left: 1285px;
+}
+.mosaic--i{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 1650px;
+}
+.mosaic--j{
+	position: absolute;
+	width: 580px;
+	height: 390px;
+	top: 1450px;
+	left:  695px;
+}
+.mosaic--k{
+	position: absolute;
+	width: 285px;
+	height: 190px;
+	top: 1650px;
+	left: 1285px;
+}
